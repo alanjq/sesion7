@@ -1,11 +1,11 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 function MenuScreen() {
     return (
-        <SafeAreaView>
+        <View>
             <Text>Menú</Text>
-        </SafeAreaView>
+        </View>
     )
 }
 export default MenuScreen
